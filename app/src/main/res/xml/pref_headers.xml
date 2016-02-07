@@ -1,0 +1,28 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="org.tweetybot.tweetybot.botSettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="Bot Actions" />
+
+    <header
+        android:icon="@drawable/ic_twit"
+        android:title="Timeline Views" />
+
+    <header
+        android:fragment="org.tweetybot.tweetybot.botSettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_notifications" />
+
+    <header
+        android:fragment="org.tweetybot.tweetybot.botSettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="Bot Frequency" />
+
+    <header
+        android:icon="@drawable/tweetyboticon"
+        android:title="About TweetyBot" />
+
+</preference-headers>
